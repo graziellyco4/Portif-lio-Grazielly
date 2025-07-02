@@ -1,0 +1,72 @@
+:root {
+  --fundo-principal: #FDF6F1;
+  --nude-rosado: #EFDCD5;
+  --nude-acinzentado: #D9C7BF;
+  --bege-destaque: #D8C1A5;
+  --branco: #FFFFFF;
+  --texto: #4B4B4B;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: var(--fundo-principal);
+  color: var(--texto);
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--nude-rosado);
+  color: var(--texto);
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 4px solid var(--bege-destaque);
+}
+
+nav a {
+  margin: 0 10px;
+  color: var(--texto);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: var(--bege-destaque);
+}
+
+.projeto {
+  background-color: var(--branco);
+  border: 1px solid var(--nude-acinzentado);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+footer {
+  background-color: var(--nude-acinzentado);
+  color: var(--texto);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.foto-perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--bege-destaque);
+  margin-bottom: 1rem;
+}
